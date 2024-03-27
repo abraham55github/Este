@@ -1,11 +1,13 @@
-import { div } from "prelude-ls";
+import React from 'react'
+import './App.css'
+import { TwitterFollowCard } from './TwitterFollowCard'
 
-function App () {
+export function App () {
     return(
-        <div>
-            <h1>
-                Hola card twitter
-            </h1>
-        </div>
+        <React.Fragment>
+            <TwitterFollowCard userName="sranonimo" name="" ></TwitterFollowCard>
+
+        </React.Fragment>
+
     )
 }
