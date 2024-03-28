@@ -1,4 +1,4 @@
-export function TwitterFollowCard ([ userName, name, isfollowing]) {
+export function TwitterFollowCard ({ userName , name, isFollowing}) {
 
 return(
 
@@ -11,7 +11,7 @@ return(
             <div className='tw-followCard-info'>
                 <strong>{name}</strong>
 
-                <span className='tw-followCard-infoUserName'>@srrandom</span>
+                <span className='tw-followCard-infoUserName'>@{userName}</span>
             </div>
         </header>
         <aside>

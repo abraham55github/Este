@@ -4,10 +4,9 @@ import { TwitterFollowCard } from './TwitterFollowCard'
 
 export function App () {
     return(
-        <React.Fragment>
-            <TwitterFollowCard userName="sranonimo" name="" ></TwitterFollowCard>
-
-        </React.Fragment>
-
+        <>
+        <TwitterFollowCard userName="kikobeats" name="SrRandom"/>
+        <TwitterFollowCard userName="pheralb" name="juanito"/>
+        </>
     )
 }
