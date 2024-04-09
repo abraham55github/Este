@@ -40,13 +40,13 @@
 }
   
   .tw-followCard-button:hover {
-    opacity: .8;
+    background-color: #09f;
 }
   
   .tw-followCard-text {
     display: block;
 }
-  
+
   .tw-followCard-button.is-following {
     border: 1px solid #bbb;
     background: transparent;
